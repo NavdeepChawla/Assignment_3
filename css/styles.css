@@ -1,0 +1,12 @@
+body{
+    font-size: 16px;
+    color: #000;
+    background-color: white;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+.text-center h1 {
+    font-weight: 900;
+}
+

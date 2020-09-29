@@ -1,0 +1,84 @@
+
+/*Navbar*/
+#header-nav{
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+    border: 0;
+}
+
+/*Navbar Brand*/
+.navbar-brand {
+    padding-top:25px;
+}
+.navbar-brand h1{
+    font-family: serif;
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px gray;
+    margin-top:0;
+    margin-bottom:0;
+    line-height: .75;
+}
+.navbar-brand a:hover{
+    text-decoration: none;
+}
+
+/* Navbar Items */
+#nav-list a {
+    color: #fff;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: red;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+/* Hamburger */
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle {
+    clear:both;
+}
+
+@media(min-width:1200px) {
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+   
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    #nav-list{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:767px) {
+    .navbar-brand{
+        padding-top:10px;
+    }
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+    #collapsable-nav a{
+        font-size: 1.2em;
+    }
+    #nav-list {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #nav-list li:nth-child(1) {
+        border-bottom: #fff solid 1px;
+    }
+    #nav-list li:nth-child(2) {
+        border-bottom: #fff solid 1px;
+    }
+}
